@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+	background-color:#FFA07A;
+}
+
+form{
+	text-align:center;
+	border:2px solid red;
+	width:400px;
+	position :absolute;
+	left:550px;
+	margin: 100px 30px;
+	padding:30px;
+	border-radius:30px;
+	background:#FFDAB9;
+}
+
+.button{
+	margin:5px;
+	width:70px;
+	height:25px;
+	border-radius:5px ;
+}

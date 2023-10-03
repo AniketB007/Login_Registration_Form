@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+<link rel="stylesheet"  href="register.css">
+
+</head>
+<body>
+<form method=POST action=register>
+
+        <h1 align="center"><u>Registration Form</u></h1>
+            
+       <input type="text"  placeholder="First Name" name="fname" required><br><br>
+       <input type="text" placeholder="Last Name" name="lname" required><br><br>
+       <input type="email" placeholder="Email" name="email" required><br><br>
+       <input type="tel" placeholder="Mobile Number" pattern=[0-9]{10} maxlength=10 name="mob"><br><br>
+       <input type="text" name="uname" placeholder="User Name" required><br><br>
+       <input type="password" name="pword" placeholder="Password" required><br><br>
+       <input class="button" type=submit><input class="button" type=reset>
+       
+  </form>
+</body>
+</html>

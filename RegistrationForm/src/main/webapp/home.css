@@ -1,0 +1,26 @@
+body{
+	background-color:#FFFFE0;
+}
+.button{
+	
+	margin:5px;
+	width:70px;
+	height:25px;
+	border-radius:5px ;
+	
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+form{
+	text-align:center;
+	border:2px solid black;
+	width:400px;
+	position :absolute;
+	left:550px;
+	margin: 100px 30px;
+	padding:30px;
+	border-radius:30px;
+	background:#FFEFD5;
+}
